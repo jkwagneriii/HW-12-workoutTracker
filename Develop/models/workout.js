@@ -2,6 +2,9 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
+//REFERENCE HERE 
+//https://mongoosejs.com/docs/2.7.x/docs/virtuals.html
+
 const workoutSchema = new Schema(
     {
       day: {
