@@ -17,7 +17,7 @@ mongoose.connect(MONGODB_URI,{
     useFindAndModify:false
 })
 
-// require("./routes/apiRoutes")(app);
+require("./routes/api-routes")(app);
 require("./routes/html-routes")(app);
 
 app.listen(PORT,function(){ 
