@@ -11,12 +11,14 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static('public'));
 
+// If testing locally, make sure your mongodb server is running
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 mongoose.connect(MONGODB_URI,{  
     useNewUrlParser:true,
     useFindAndModify:false
 })
 
+// Routes
 require("./routes/api-routes")(app);
 require("./routes/html-routes")(app);
 

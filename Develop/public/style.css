@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #e757fd;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -183,7 +183,7 @@ button {
   opacity: 1;
   right: 10px;
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color: hsl(302, 93%, 22%);
   transition: all 1.2s;
 }
 
