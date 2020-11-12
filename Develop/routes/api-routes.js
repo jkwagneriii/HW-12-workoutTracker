@@ -25,4 +25,11 @@ module.exports = function(app){
             res.json(err)
         })
     })
+
+    // Workouts POST -- Range
+    // Workout.create({})
+
+    // Workouts PUT /workouts/:id  
+    // Use {body, params}
+    // Workout.findByIdAndUpdate 
 }
