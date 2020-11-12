@@ -51,7 +51,7 @@ const workoutSchema = new Schema(
 //REFERENCE HERE 
 //https://mongoosejs.com/docs/2.7.x/docs/virtuals.html
 
-// adds a dynamically-created property to schema
+// dynamically creates property for schema 
 workoutSchema.virtual("totalDuration").get(function () {
   // "reduce" array of exercises down to just the sum of their durations
   return this.exercises.reduce((total, exercise) => {
