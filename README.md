@@ -22,6 +22,8 @@ In the same directory as package.json, type ```npm install```
 ## Screenshot
 ![screenshot]()
 
+## Process 
+
 ## Additional Questions
 If you have any questions about the project or would like to contact me, please reach out through GitHub.
 
