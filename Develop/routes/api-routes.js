@@ -9,6 +9,8 @@ module.exports = function(app){
     // Workouts GET 
     app.get("/api/workouts",function(req,res){  
         Workout.find()
+        // indicating function scope
+        // check 5 weeks ago
         .then(data =>{  
             res.json(data)
         })
