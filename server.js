@@ -12,7 +12,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // If testing locally, make sure your mongodb server is running
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+// If testing locally - mongodb://localhost/workout
+var MONGODB_URI = process.env.MONGODB_URI || "";
 mongoose.connect(MONGODB_URI,{  
     useNewUrlParser:true,
     useFindAndModify:false
